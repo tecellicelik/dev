@@ -30,7 +30,7 @@ public class TestProjectTest {
      */
     @Test
     public void testAdd() {
-        Assert.assertEquals(42, math.add());
+        Assert.assertEquals(4, math.add());
     }
     
 }
