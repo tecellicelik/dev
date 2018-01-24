@@ -18,19 +18,12 @@ import static org.junit.Assert.*;
  * @author tecelli
  */
 public class TestProjectTest {
-    TestProject math;
 
-    @Before
-    public void setUp() {
-        math=new TestProject1(6, 36);
-    }
-    
-    /**
-     * Test of add method, of class Math.
-     */
     @Test
     public void testAdd() {
-        Assert.assertEquals(42, math.add());
+        int a = 5;
+        int b = 7
+        assertTrue(a + b == 8);
     }
     
 }
