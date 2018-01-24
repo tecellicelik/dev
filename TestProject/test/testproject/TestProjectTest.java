@@ -22,7 +22,7 @@ public class TestProjectTest {
 
     @Before
     public void setUp() {
-        math=new TestProject(6, 36.5);
+        math=new TestProject1(6, 36);
     }
     
     /**
