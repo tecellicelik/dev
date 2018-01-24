@@ -22,7 +22,7 @@ public class TestProjectTest {
 
     @Before
     public void setUp() {
-        math=new TestProject(6, 36);
+        math=new TestProject(6, 36.5);
     }
     
     /**
@@ -30,7 +30,7 @@ public class TestProjectTest {
      */
     @Test
     public void testAdd() {
-        Assert.assertEquals(4, math.add());
+        Assert.assertEquals(42, math.add());
     }
     
 }
