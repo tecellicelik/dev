@@ -17,7 +17,7 @@ public class TestProject {
         this.b = b;
     }
     public int add() {
-        return (a + b)/0;
+        return (a + b);
     }
     
 }
